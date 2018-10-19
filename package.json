@@ -1,20 +1,26 @@
 {
     "name": "@mmieluch/js-money",
     "description": "JavaScript implementation of the Money value object.",
-    "version": "0.6.3",
+    "version": "0.6.4",
     "main": "./lib",
     "authors": [
-      {
-        "name": "David Kalosi",
-        "email": "david.kalosi@gmail.com"
-      },
-      {
-        "name": "Michał Mieluch",
-        "email": "mieluch@gmail.com"
-      }
+        {
+            "name": "David Kalosi",
+            "email": "david.kalosi@gmail.com"
+        },
+        {
+            "name": "Michał Mieluch",
+            "email": "mieluch@gmail.com"
+        }
     ],
-    "keywords": ["money", "javascript", "currency"],
-    "files": ["lib"],
+    "keywords": [
+        "money",
+        "javascript",
+        "currency"
+    ],
+    "files": [
+        "lib"
+    ],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -27,8 +33,8 @@
         "lodash": "4.x.x"
     },
     "devDependencies": {
-        "mocha": "1.x.x",
-        "chai": "1.x.x"
+        "chai": "1.x.x",
+        "mocha": "1.x.x"
     },
     "scripts": {
         "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
